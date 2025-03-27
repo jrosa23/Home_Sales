@@ -52,7 +52,9 @@ parquet_df = spark.read.parquet("home_sales_partitioned.parquet")
 
 ## Performance Comparison
 Uncached query runtime: ~0.0001 seconds
+
 Cached query runtime: ~0.00009 seconds
+
 Parquet query runtime: ~0.00008 seconds
 
 # Results
