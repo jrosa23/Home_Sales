@@ -39,7 +39,9 @@ Caching
 python
 Copy
 spark.sql("CACHE TABLE home_sales")
-spark.catalog.isCached('home_sales')  # Verify caching
+spark.catalog.isCached('home_sales')  
+
+# Verify caching
 Parquet Partitioning
 python
 Copy
